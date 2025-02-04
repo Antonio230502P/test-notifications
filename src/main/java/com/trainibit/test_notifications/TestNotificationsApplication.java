@@ -8,6 +8,7 @@ public class TestNotificationsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestNotificationsApplication.class, args);
+		System.out.println("Escuchando mensajes del topico users_registered");
 	}
 
 }
